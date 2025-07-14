@@ -12,3 +12,4 @@ sphinx-autobuild
 sphinx-copybutton
 sphinxext-opengraph
 sphinxext-rediraffe
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
