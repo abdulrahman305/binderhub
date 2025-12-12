@@ -11,3 +11,4 @@ pytest-cov
 pytest-timeout
 pytest_playwright
 requests
+tornado>=6.5.3 # not directly required, pinned by Snyk to avoid a vulnerability
