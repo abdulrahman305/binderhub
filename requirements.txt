@@ -8,5 +8,6 @@ prometheus_client
 pyjwt>=2
 python-json-logger
 ruamel.yaml
-tornado>=5.1
+tornado>=6.5.3
 traitlets
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
